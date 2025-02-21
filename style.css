@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "left-sidebar main-content right-side-bar"
+    "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+.header{
+    grid-area: header;
+
+    background-color: #eee;
+    padding: 20px;
+    text-align:  center;
+}
+.left-siderbar{
+    grid-area: "left-sidebar";
+    background-color: #ddd;
+    padding: 20px;
+}
+.right-siderbar{
+    grid-area: "right-sidebar";
+    background-color: #ddd;
+    padding: 20px;
+}
