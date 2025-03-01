@@ -2,11 +2,14 @@
   "name": "cssclass2",
   "version": "1.0.0",
   "description": "Esse template está configurado para criar um ambiente com as principais dependências que precisamos na aula. Para criar um novo projeto no ambiente:",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "npx htmlhint *.html"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@linthtml/linthtml": "^0.9.4",
+    "htmlhint": "^1.1.4"
+  }
 }
