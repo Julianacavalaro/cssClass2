@@ -11,5 +11,6 @@
   "devDependencies": {
     "@linthtml/linthtml": "^0.9.4",
     "htmlhint": "^1.1.4"
-  }
+  },
+  "keywords": []
 }
